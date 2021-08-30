@@ -13,3 +13,6 @@ yarn add react-dom
 
 4 - Install dependency to Babel. Babel will convert the javascript N version to javascript vanilla. (code: all functionalities, cli: to use command line, preset-env: library to identify the enviroment to convert in the best performatic way)
 yarn add @babel/code @babel/cli @babel/preset-env -D
+
+5 - Install the babel dependency to understand react code to convert.
+yarn add @babel/preset-react -D
