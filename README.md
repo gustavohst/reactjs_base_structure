@@ -22,3 +22,10 @@ yarn add webpack webpack-cli webpack-dev-server -D
 
 7 - Dependency to integrate babel and webpack (for that reason in the imports we do need add the file extention)
 yarn add babel-loader -D
+
+8 - To inject the reference of the bundle we need add this component.
+yarn add html-webpack-plugin -D
+
+9 - This dependence will help to change the code and the page automaticle reload.
+yarn webpack-dev-server -D
+NOTE: To run, execute `yarn webpack-dev-server -D`
