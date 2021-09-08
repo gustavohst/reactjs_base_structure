@@ -29,3 +29,8 @@ Steps to configure the base enviroment:
 9 - This dependence will help to change the code and the page automaticle reload.
 `yarn webpack-dev-server -D`
 NOTE: To run, execute `yarn webpack-dev-server -D`
+
+
+
+NOTES:
+Source maps: Turn easy to understand the codes. Its a good way to track the codes. Help to fin errors.
