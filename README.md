@@ -36,6 +36,8 @@ NOTE: To run, execute `yarn webpack serve -D`
 11 - Read CSS to import in jsx files
 `yarn add style-loader css-loader -D `
 
+12 - Use the css by pre processor
+`yarn add sass-loader node-sass -D`
 
 NOTES:
 Source maps: Turn easy to understand the codes. Its a good way to track the codes. Help to fin errors.
