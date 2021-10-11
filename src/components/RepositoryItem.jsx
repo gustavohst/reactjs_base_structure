@@ -3,15 +3,15 @@ export function RepositoryItem(props){
     const {
         name,
         description,
-        link,
+        html_url,
     } = props.repository;
 
     return(
         <li>
-            <strong>{name ?? 'Default'}</strong>
+            <strong>{name}</strong>
             <p>{description}</p>
 
-            <a href={link}>
+            <a href={html_url}>
                 Acess the repository
             </a>
         </li>
