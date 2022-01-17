@@ -39,5 +39,17 @@ NOTE: To run, execute `yarn webpack serve -D`
 12 - Use the css by pre processor
 `yarn add sass-loader node-sass -D`
 
+13 - Install the typescript                        
+` yarn add typescript -D`
+
+14 - Start the typescript plugin
+`yarn tsc --init`
+
 NOTES:
 Source maps: Turn easy to understand the codes. Its a good way to track the codes. Help to fin errors.
+What is a typescript? is a superset, group of functionalities hover of javascript
+Why use typescript?
+Prós
+- Rastreabilily
+- Avoid errors
+- checked types during the development
